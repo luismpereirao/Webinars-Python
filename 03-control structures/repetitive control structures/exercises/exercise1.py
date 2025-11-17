@@ -8,3 +8,12 @@ while cont <= num:
     result = result * cont
     cont = cont+1
 print("Result is: ", result)
+
+result = 1
+num = int(input("Input a number: "))
+cont = 2
+
+for cont in range(2, num + 1):
+    result = result * cont
+
+print("Result is: ", result)
